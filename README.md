@@ -48,7 +48,7 @@ meeting apiserver \
 - `--secret`：请联系 BD 获取
 - `--cert` 和 `--certkey`：是可选的，如果未指定，那么将会监听 `80` 端口来自签证书
 - `--mailServer`，`--mailPort`，`--mailUsername` 和 `--mailFrom`：均可指定对应多个，比如同时指定内邮和外邮，示例：`--mailServer smtp1.hello.com --mailServer smtp2.hello.com`
-- `--allocateserver`：`allocateserver` 虽然支持任意 URL，但一般 `apiserver` 与 `allocateserver` 通过内网连接即可，同时建议使用不可预测无规律的 path
+- `--allocateserver`：`allocateserver` 虽然支持任意 URL，但一般 `apiserver` 与 `allocateserver` 通过内网连接即可。如果 `apiserver` 通过外网访问 `allocateserver`，则建议 `allocateserver` 使用 https 和不可预测无规律的 path
 - 防火墙需要开放 `443/TCP`，`80/TCP`（按需）
 
 ## sfuserver
