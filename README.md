@@ -1,6 +1,6 @@
 # TxThinking Meeting 企业私有化部署文档
 
-A self-hosted, scalable, enterprise-grade video conferencing solution
+支持私有化部署，可伸缩，企业级视频会议解决方案
 
 > 可以发邮件至 cloud@txthinking.com 获取体验 secret
 
