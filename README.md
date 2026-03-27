@@ -24,15 +24,7 @@ The entire system is divided into five components: `apiserver`, `sfuserver`, `fs
 
 ## Install
 
-```
-bash <(curl https://bash.ooo/nami.sh)
-```
-
-```
-nami install meeting
-```
-
-`meeting` is a standalone binary file, you can also [download](https://github.com/txthinkinginc/meeting/releases/latest/download/meeting_linux_amd64) without nami.
+`meeting` is a standalone binary file, you can contact cloud@txthinking.com to obtain it.
 
 ## apiserver
 
